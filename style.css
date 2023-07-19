@@ -21,4 +21,7 @@ main {
 
 .feedback {
     background-color: hsl(213, 19%, 18%);
+    width: 90vw;
+    padding: 1.5rem;
+    border-radius: 15px;
 }
