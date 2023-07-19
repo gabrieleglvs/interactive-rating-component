@@ -5,5 +5,20 @@
     margin: 0;
     padding: 0;
     font-family: 'Overpass', sans-serif;
+    color: white;
 }
 
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback {
+    background-color: hsl(213, 19%, 18%);
+}
