@@ -39,3 +39,24 @@ main {
     opacity: 90%;
     border-radius: 100%;
 }
+
+.feedback-p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: hsl(216, 12%, 54%);
+}
+
+.feedback-nota {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.nota {
+    background-color: hsla(216, 12%, 54%, 0.247);
+    padding: 1rem;
+    border-radius: 100%;
+    font-size: 0.9rem;
+    flex-basis: calc(25% - 1.5rem); /* Define um tamanho base para cada caixa */
+    text-align: center; /* Centralizando o conteúdo na caixa */
+}
