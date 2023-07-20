@@ -44,6 +44,7 @@ main {
     margin-top: 1rem;
     font-size: 0.9rem;
     color: hsl(216, 12%, 54%);
+    line-height: 1.3rem;
 }
 
 .feedback-nota {
@@ -59,4 +60,14 @@ main {
     font-size: 0.9rem;
     flex-basis: calc(25% - 1.5rem); /* Define um tamanho base para cada caixa */
     text-align: center; /* Centralizando o conteúdo na caixa */
+}
+
+.feedback-botao {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    padding: 1rem;
+    letter-spacing: 1.5px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
