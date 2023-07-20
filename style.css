@@ -48,6 +48,7 @@ main {
 }
 
 .feedback-nota {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
@@ -55,11 +56,10 @@ main {
 
 .nota {
     background-color: hsla(216, 12%, 54%, 0.247);
-    padding: 1rem;
+    padding: 0.8rem 1.1rem;
     border-radius: 100%;
     font-size: 0.9rem;
-    flex-basis: calc(25% - 1.5rem); /* Define um tamanho base para cada caixa */
-    text-align: center; /* Centralizando o conteúdo na caixa */
+    text-align: center;
 }
 
 .feedback-botao {
