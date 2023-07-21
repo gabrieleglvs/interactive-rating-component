@@ -18,8 +18,7 @@
 
 <body>
   <main>
-    <section class="feedback">
-      <form class="feedback-form" method="get" action="">
+    <section class="feedback" id="caixa-feedback">
         <div><img class="feedback-img" src="images/icon-star.svg" alt=""></div>
         <div class="feedback-texto">
           <h1 class="feedback-titulo">How did we do?</h1>
@@ -27,19 +26,18 @@
             offering!</p>
         </div>
         <div class="feedback-nota">
-          <span class="nota" id="nota1" value="1">1</span>
-          <span class="nota" id="nota2" value="2">2</span>
-          <span class="nota" id="nota3" value="3">3</span>
-          <span class="nota" id="nota4" value="4">4</span>
-          <span class="nota" id="nota5" value="5">5</span>
+          <span class="nota" id="nota1">1</span>
+          <span class="nota" id="nota2">2</span>
+          <span class="nota" id="nota3">3</span>
+          <span class="nota" id="nota4">4</span>
+          <span class="nota" id="nota5">5</span>
         </div>
-        <button class="feedback-botao">SUBMIT</button>
-      </form>
+        <button class="feedback-botao" id="btn-feedback" value="">SUBMIT</button>
     </section>
 
-    <section class="thank-you">
+    <section class="thank-you fechar-thank-you" id="caixa-thank-you">
       <img class="thank-you-img" src="images/illustration-thank-you.svg" alt="">
-      <p class="thank-you-info">You selected <span>Add here</span> out of 5</p>
+      <p class="thank-you-info">You selected <span id="rating">Add here</span> out of 5</p>
       <div class="thank-you-texto">
         <h1>Thank you!</h1>
         <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
