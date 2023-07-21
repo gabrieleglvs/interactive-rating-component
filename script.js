@@ -50,7 +50,7 @@ nota4El.addEventListener("click", (e) => {
     nota1El.classList.remove("clicked")
     nota5El.classList.remove("clicked")
 
-    let nota = nota1E4.innerHTML
+    let nota = nota4El.innerHTML
 
     agradecer(nota)
 })
