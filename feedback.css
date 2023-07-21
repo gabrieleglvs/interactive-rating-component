@@ -1,5 +1,4 @@
-.feedback {
-    display: none;
+.feedback {  
     box-sizing: border-box;
     background-color: hsl(213, 19%, 18%);
     width: 90vw;
@@ -55,6 +54,13 @@
 @media screen and (min-width: 768px) {
     .feedback {
         width: 45vw;
+        border-radius: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .feedback {
+        width: 35vw;
         border-radius: 25px;
     }
 }
