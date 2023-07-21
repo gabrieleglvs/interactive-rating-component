@@ -41,6 +41,16 @@
     text-align: center;
 }
 
+.nota:hover {
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.clicked {
+    background-color: hsl(25, 97%, 53%); /*mudar a cor via js*/
+}
+
 .feedback-botao {
     background-color: hsl(25, 97%, 53%);
     border: none;
